@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+}
+
+h1{
+    text-align: center;
+    color: green;
+
+}
+.main-cont {
+    height: 480px;
+    width: 600px;
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex
+}
+.cont-1, .cont-2, .cont-3{
+    height: 100%;
+    width: 33.33%;
+}
+.cont-1, .cont-3{
+    background-color: green;
+}
+.cont-2{
+    background-color: white;
+}
