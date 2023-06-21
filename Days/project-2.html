@@ -5,12 +5,19 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="project-2.css">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     </head>
     <body>
         <div class="main-cont">
             <div class="flex-div">
               <div class="name-content">
-                <h1 class="logo">Facebook</h1>
+                <div data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine">
+     <h1 class="logo">Facebook</h1>
+</div>
+               
                 <p>Connect with friends and the world around you on Facebook.</p>
               </div>
                 <form>
@@ -23,5 +30,8 @@
                 </form>
             </div>
         </div>
+        <script>
+          AOS.init();
+        </script>
     </body>
 </html>
