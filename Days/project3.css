@@ -4,13 +4,14 @@ body{
 .cont-header{
     width: 99.8%;
     height: 4rem;
-    background-color: rgba(81, 22, 144, 0.963);
+    background-color: rgb(81, 22, 144);
     color: white;
     display: flex;
     position: fixed;
     padding: 3px;
     justify-content: center;
     top: 0;
+    
 }
 .cont-title span{
     color: orangered;
@@ -27,7 +28,7 @@ body{
 .cont-nav{
     margin-top: auto;
     margin-bottom: auto;
-    margin-right: 35%;
+    margin-right: 30%;
 }
 .cont-nav li{
     list-style-type: none;
@@ -57,12 +58,17 @@ input{
 div .text{
     display: block;
     width: 50%;
-    height: 3rem;
+    height: 4rem;
     padding: 10px;
     font-weight: bolder;
     margin-bottom: 10px;
     background-color: rgba(81, 22, 144, 0.1);
     border: none;
+}
+.text:focus{
+    outline: none;
+    border: none;
+    box-shadow: 0px 1px 3px rgba(18, 18, 18, 0.7);
 }
 .inpt button{
     display: block;
@@ -85,9 +91,9 @@ div .text{
     bottom: 15px;
     right: 16px;
     width: 70px;
-    height: 30px;
+    height: 3rem;
     border-radius: 15px;
-    padding: 10px;
+    padding-bottom: 2rem;
     background-color: rgba(81, 22, 144, 0.9);
     cursor: pointer;
     color: white;
@@ -95,14 +101,54 @@ div .text{
     text-align: center;
     transition-duration: 2.0s;
 }
-.ask-fedex .cont-ask{
-    
-}
 .ask-fedex:hover{
     width: 140px;
-    height: 30px;
+    height: 3rem;
 }
 .fgt{
     font-family: sans-serif;
     color: rgba(81, 22, 144, 0.8);
+}
+.foot{
+    margin-left: 10rem;
+    margin-top: 6rem;
+    display: flex;
+}
+.foot .foot-flx{
+    margin-right: 3rem;
+    padding-right: 8px;
+}
+.foot-flx h5{
+    font-size: 16px;
+    margin-bottom: 2rem;
+    color: rgb(81, 22, 144);
+}
+.foot-flx p{
+    font-size: 13px;
+}
+.foot a{
+    color: black;
+    text-decoration: none;
+}
+.follow{
+    margin-left: 4rem;
+    color: rgba(81, 22, 144, 0.9);
+}
+.footer{
+    background-color: rgb(81, 22, 144);
+    padding: 15px;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.footer li{
+    display: inline;
+    list-style-type: none;
+    margin-left: 5px;
+}
+.footer a{
+    text-decoration: none;
+    color: white;
 }
